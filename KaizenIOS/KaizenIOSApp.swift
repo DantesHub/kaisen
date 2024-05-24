@@ -1,6 +1,6 @@
 //
-//  KaizenMacApp.swift
-//  KaizenMac
+//  KaizenIOSApp.swift
+//  KaizenIOS
 //
 //  Created by Dante Kim on 5/24/24.
 //
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct KaizenMacApp: App {
+struct KaizenIOSApp: App {
     var body: some Scene {
         WindowGroup {
-            MainView()
+            ContentView()
         }
     }
 }

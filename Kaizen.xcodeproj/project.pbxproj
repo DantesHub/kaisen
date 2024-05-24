@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8889F63C2C00FD8700F48E93 /* KaizenMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889F63B2C00FD8700F48E93 /* KaizenMacApp.swift */; };
+		8889F63E2C00FD8700F48E93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889F63D2C00FD8700F48E93 /* ContentView.swift */; };
+		8889F6402C00FD8800F48E93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8889F63F2C00FD8800F48E93 /* Assets.xcassets */; };
+		8889F6432C00FD8800F48E93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8889F6422C00FD8800F48E93 /* Preview Assets.xcassets */; };
+		8889F6512C00FDA900F48E93 /* KaizenIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889F6502C00FDA900F48E93 /* KaizenIOSApp.swift */; };
+		8889F6532C00FDA900F48E93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889F6522C00FDA900F48E93 /* ContentView.swift */; };
+		8889F6552C00FDAA00F48E93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8889F6542C00FDAA00F48E93 /* Assets.xcassets */; };
+		8889F6582C00FDAA00F48E93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8889F6572C00FDAA00F48E93 /* Preview Assets.xcassets */; };
+		8889F65E2C00FE5300F48E93 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889F65D2C00FE5300F48E93 /* Example.swift */; };
+		8889F6602C00FE8400F48E93 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889F65D2C00FE5300F48E93 /* Example.swift */; };
+		8889F6622C00FEC100F48E93 /* Shared in Resources */ = {isa = PBXBuildFile; fileRef = 8889F6612C00FEC100F48E93 /* Shared */; };
+		8889F6632C00FEC100F48E93 /* Shared in Resources */ = {isa = PBXBuildFile; fileRef = 8889F6612C00FEC100F48E93 /* Shared */; };
+		8889F6682C00FF1000F48E93 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889F6672C00FF1000F48E93 /* HomeScreen.swift */; };
+		8889F6692C00FF1000F48E93 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889F6672C00FF1000F48E93 /* HomeScreen.swift */; };
+		8889F66E2C01005000F48E93 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889F66D2C01005000F48E93 /* MainView.swift */; };
+		8889F66F2C01005000F48E93 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889F66D2C01005000F48E93 /* MainView.swift */; };
+		8889F6722C010A3600F48E93 /* ChatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889F6712C010A3600F48E93 /* ChatScreen.swift */; };
+		8889F6732C010A3600F48E93 /* ChatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889F6712C010A3600F48E93 /* ChatScreen.swift */; };
+		8889F6752C010A5B00F48E93 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889F6742C010A5B00F48E93 /* ChatViewModel.swift */; };
+		8889F6762C010A5B00F48E93 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889F6742C010A5B00F48E93 /* ChatViewModel.swift */; };
+		8889F6782C010B1700F48E93 /* DotLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889F6772C010B1700F48E93 /* DotLoadingView.swift */; };
+		8889F6792C010B1700F48E93 /* DotLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889F6772C010B1700F48E93 /* DotLoadingView.swift */; };
+		8889F67B2C010BAA00F48E93 /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889F67A2C010BAA00F48E93 /* MessageRowView.swift */; };
+		8889F67C2C010BAA00F48E93 /* MessageRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889F67A2C010BAA00F48E93 /* MessageRowView.swift */; };
+		8889F67E2C0110C400F48E93 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889F67D2C0110C400F48E93 /* Message.swift */; };
+		8889F67F2C0110C400F48E93 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889F67D2C0110C400F48E93 /* Message.swift */; };
+		8889F6882C011A3000F48E93 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889F6872C011A3000F48E93 /* StringExtension.swift */; };
+		8889F6892C011A3000F48E93 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889F6872C011A3000F48E93 /* StringExtension.swift */; };
+		8889F68B2C011D9800F48E93 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8889F68A2C011D9800F48E93 /* Colors.xcassets */; };
+		8889F68C2C011D9800F48E93 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8889F68A2C011D9800F48E93 /* Colors.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8889F6382C00FD8700F48E93 /* Kaizen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaizen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8889F63B2C00FD8700F48E93 /* KaizenMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaizenMacApp.swift; sourceTree = "<group>"; };
+		8889F63D2C00FD8700F48E93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8889F63F2C00FD8800F48E93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8889F6422C00FD8800F48E93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8889F6442C00FD8800F48E93 /* KaizenMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KaizenMac.entitlements; sourceTree = "<group>"; };
+		8889F64E2C00FDA900F48E93 /* KaizenIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaizenIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8889F6502C00FDA900F48E93 /* KaizenIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaizenIOSApp.swift; sourceTree = "<group>"; };
+		8889F6522C00FDA900F48E93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8889F6542C00FDAA00F48E93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8889F6572C00FDAA00F48E93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8889F65D2C00FE5300F48E93 /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		8889F6612C00FEC100F48E93 /* Shared */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Shared; path = KaizenMac/Shared; sourceTree = SOURCE_ROOT; };
+		8889F6672C00FF1000F48E93 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		8889F66D2C01005000F48E93 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8889F6712C010A3600F48E93 /* ChatScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatScreen.swift; sourceTree = "<group>"; };
+		8889F6742C010A5B00F48E93 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		8889F6772C010B1700F48E93 /* DotLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotLoadingView.swift; sourceTree = "<group>"; };
+		8889F67A2C010BAA00F48E93 /* MessageRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRowView.swift; sourceTree = "<group>"; };
+		8889F67D2C0110C400F48E93 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		8889F6872C011A3000F48E93 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		8889F68A2C011D9800F48E93 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8889F6352C00FD8700F48E93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8889F64B2C00FDA900F48E93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8889F62F2C00FD8700F48E93 = {
+			isa = PBXGroup;
+			children = (
+				8889F63A2C00FD8700F48E93 /* KaizenMac */,
+				8889F64F2C00FDA900F48E93 /* KaizenIOS */,
+				8889F6392C00FD8700F48E93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8889F6392C00FD8700F48E93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8889F6382C00FD8700F48E93 /* Kaizen.app */,
+				8889F64E2C00FDA900F48E93 /* KaizenIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8889F63A2C00FD8700F48E93 /* KaizenMac */ = {
+			isa = PBXGroup;
+			children = (
+				8889F6862C011A2500F48E93 /* Extensions */,
+				8889F6662C00FEFC00F48E93 /* Models */,
+				8889F6652C00FEF700F48E93 /* ViewModels */,
+				8889F6642C00FEF300F48E93 /* Views */,
+				8889F65C2C00FE4600F48E93 /* Shared */,
+				8889F63B2C00FD8700F48E93 /* KaizenMacApp.swift */,
+				8889F63D2C00FD8700F48E93 /* ContentView.swift */,
+				8889F63F2C00FD8800F48E93 /* Assets.xcassets */,
+				8889F6442C00FD8800F48E93 /* KaizenMac.entitlements */,
+				8889F6412C00FD8800F48E93 /* Preview Content */,
+			);
+			path = KaizenMac;
+			sourceTree = "<group>";
+		};
+		8889F6412C00FD8800F48E93 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8889F6422C00FD8800F48E93 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8889F64F2C00FDA900F48E93 /* KaizenIOS */ = {
+			isa = PBXGroup;
+			children = (
+				8889F65F2C00FE5800F48E93 /* Shared */,
+				8889F6502C00FDA900F48E93 /* KaizenIOSApp.swift */,
+				8889F6522C00FDA900F48E93 /* ContentView.swift */,
+				8889F6542C00FDAA00F48E93 /* Assets.xcassets */,
+				8889F6562C00FDAA00F48E93 /* Preview Content */,
+			);
+			path = KaizenIOS;
+			sourceTree = "<group>";
+		};
+		8889F6562C00FDAA00F48E93 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8889F6572C00FDAA00F48E93 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8889F65C2C00FE4600F48E93 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8889F66C2C00FF2D00F48E93 /* Components */,
+				8889F65D2C00FE5300F48E93 /* Example.swift */,
+				8889F68A2C011D9800F48E93 /* Colors.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8889F65F2C00FE5800F48E93 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8889F6612C00FEC100F48E93 /* Shared */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8889F6642C00FEF300F48E93 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8889F6702C010A2700F48E93 /* Chat */,
+				8889F66A2C00FF1700F48E93 /* Home */,
+				8889F66D2C01005000F48E93 /* MainView.swift */,
+				8889F6772C010B1700F48E93 /* DotLoadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8889F6652C00FEF700F48E93 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8889F6742C010A5B00F48E93 /* ChatViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8889F6662C00FEFC00F48E93 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8889F67D2C0110C400F48E93 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8889F66A2C00FF1700F48E93 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8889F66B2C00FF2300F48E93 /* Components */,
+				8889F6672C00FF1000F48E93 /* HomeScreen.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8889F66B2C00FF2300F48E93 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8889F66C2C00FF2D00F48E93 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8889F6702C010A2700F48E93 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				8889F6712C010A3600F48E93 /* ChatScreen.swift */,
+				8889F67A2C010BAA00F48E93 /* MessageRowView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		8889F6862C011A2500F48E93 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8889F6872C011A3000F48E93 /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8889F6372C00FD8700F48E93 /* Kaizen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8889F6472C00FD8800F48E93 /* Build configuration list for PBXNativeTarget "Kaizen" */;
+			buildPhases = (
+				8889F6342C00FD8700F48E93 /* Sources */,
+				8889F6352C00FD8700F48E93 /* Frameworks */,
+				8889F6362C00FD8700F48E93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kaizen;
+			productName = KaizenMac;
+			productReference = 8889F6382C00FD8700F48E93 /* Kaizen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8889F64D2C00FDA900F48E93 /* KaizenIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8889F6592C00FDAA00F48E93 /* Build configuration list for PBXNativeTarget "KaizenIOS" */;
+			buildPhases = (
+				8889F64A2C00FDA900F48E93 /* Sources */,
+				8889F64B2C00FDA900F48E93 /* Frameworks */,
+				8889F64C2C00FDA900F48E93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaizenIOS;
+			productName = KaizenIOS;
+			productReference = 8889F64E2C00FDA900F48E93 /* KaizenIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8889F6302C00FD8700F48E93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8889F6372C00FD8700F48E93 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8889F64D2C00FDA900F48E93 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 8889F6332C00FD8700F48E93 /* Build configuration list for PBXProject "Kaizen" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8889F62F2C00FD8700F48E93;
+			productRefGroup = 8889F6392C00FD8700F48E93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8889F6372C00FD8700F48E93 /* Kaizen */,
+				8889F64D2C00FDA900F48E93 /* KaizenIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8889F6362C00FD8700F48E93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8889F6432C00FD8800F48E93 /* Preview Assets.xcassets in Resources */,
+				8889F68B2C011D9800F48E93 /* Colors.xcassets in Resources */,
+				8889F6402C00FD8800F48E93 /* Assets.xcassets in Resources */,
+				8889F6622C00FEC100F48E93 /* Shared in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8889F64C2C00FDA900F48E93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8889F6582C00FDAA00F48E93 /* Preview Assets.xcassets in Resources */,
+				8889F68C2C011D9800F48E93 /* Colors.xcassets in Resources */,
+				8889F6552C00FDAA00F48E93 /* Assets.xcassets in Resources */,
+				8889F6632C00FEC100F48E93 /* Shared in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8889F6342C00FD8700F48E93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8889F6682C00FF1000F48E93 /* HomeScreen.swift in Sources */,
+				8889F6752C010A5B00F48E93 /* ChatViewModel.swift in Sources */,
+				8889F67B2C010BAA00F48E93 /* MessageRowView.swift in Sources */,
+				8889F6722C010A3600F48E93 /* ChatScreen.swift in Sources */,
+				8889F63E2C00FD8700F48E93 /* ContentView.swift in Sources */,
+				8889F63C2C00FD8700F48E93 /* KaizenMacApp.swift in Sources */,
+				8889F66E2C01005000F48E93 /* MainView.swift in Sources */,
+				8889F6882C011A3000F48E93 /* StringExtension.swift in Sources */,
+				8889F67E2C0110C400F48E93 /* Message.swift in Sources */,
+				8889F65E2C00FE5300F48E93 /* Example.swift in Sources */,
+				8889F6782C010B1700F48E93 /* DotLoadingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8889F64A2C00FDA900F48E93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8889F6692C00FF1000F48E93 /* HomeScreen.swift in Sources */,
+				8889F6762C010A5B00F48E93 /* ChatViewModel.swift in Sources */,
+				8889F67C2C010BAA00F48E93 /* MessageRowView.swift in Sources */,
+				8889F6732C010A3600F48E93 /* ChatScreen.swift in Sources */,
+				8889F6532C00FDA900F48E93 /* ContentView.swift in Sources */,
+				8889F6512C00FDA900F48E93 /* KaizenIOSApp.swift in Sources */,
+				8889F66F2C01005000F48E93 /* MainView.swift in Sources */,
+				8889F6892C011A3000F48E93 /* StringExtension.swift in Sources */,
+				8889F67F2C0110C400F48E93 /* Message.swift in Sources */,
+				8889F6602C00FE8400F48E93 /* Example.swift in Sources */,
+				8889F6792C010B1700F48E93 /* DotLoadingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8889F6452C00FD8800F48E93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8889F6462C00FD8800F48E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8889F6482C00FD8800F48E93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KaizenMac/KaizenMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KaizenMac/Preview Content\"";
+				DEVELOPMENT_TEAM = M5757NXZKD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.nora.kaizen.KaizenMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		8889F6492C00FD8800F48E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KaizenMac/KaizenMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KaizenMac/Preview Content\"";
+				DEVELOPMENT_TEAM = M5757NXZKD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.nora.kaizen.KaizenMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		8889F65A2C00FDAA00F48E93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KaizenIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = M5757NXZKD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.nora.kaizen.KaizenIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8889F65B2C00FDAA00F48E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KaizenIOS/Preview Content\"";
+				DEVELOPMENT_TEAM = M5757NXZKD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.nora.kaizen.KaizenIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8889F6332C00FD8700F48E93 /* Build configuration list for PBXProject "Kaizen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8889F6452C00FD8800F48E93 /* Debug */,
+				8889F6462C00FD8800F48E93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8889F6472C00FD8800F48E93 /* Build configuration list for PBXNativeTarget "Kaizen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8889F6482C00FD8800F48E93 /* Debug */,
+				8889F6492C00FD8800F48E93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8889F6592C00FDAA00F48E93 /* Build configuration list for PBXNativeTarget "KaizenIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8889F65A2C00FDAA00F48E93 /* Debug */,
+				8889F65B2C00FDAA00F48E93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8889F6302C00FD8700F48E93 /* Project object */;
+}
